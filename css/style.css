@@ -159,7 +159,7 @@ header>div>ul>li>a{
 
 }
 
-@media (max-width: 700px) and (orientation:landscape){
+@media (max-width:800px) and (orientation:landscape){
     body{
         display: none;
     }
