@@ -7,6 +7,19 @@
 body{
     background: #e1f6ff;    
 }
+body::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+body::-webkit-scrollbar-track {
+    background-color:#e1f6ff ;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #4e4ea1;
+  height: 30px;;
+ 
+}
 
 
 #bg1{
