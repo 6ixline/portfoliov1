@@ -2,17 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
+}
+body{
+    background: #e1f6ff;    
 }
 
 
 #bg1{
-    background: url("../assets/bg2_2.svg") no-repeat 0 0 fixed;
+    background: url("../assets/bg2_2.svg") no-repeat 0 0;
     position: absolute;
     background-size: 75vw;
     top:0;
     left:0;
-    height: 100vh;
+    height: 140vh;
     width: 100vw;
 }
 #nav{
@@ -106,12 +109,61 @@ header>div>ul>li>a{
     background: #4e4ea1;
 }
 
+.container{
+    width: 100vw;
+    height: 100vh;
+  
+}
+
+.middle{
+    position: absolute;
+    top:540px;
+    left:calc( 50% - 10px );
+    z-index:99!important;
+}
+.mouse{
+    width:40px;
+    height:80px;
+    border:3px solid #ff758d;
+    border-radius: 60px;
+}
+.mouse::before{
+    content: "";
+    width:4px;
+    height: 10px;
+    position: absolute;
+    background:#ff758d;
+    border-radius: 5px;
+    top:8px;
+    left:calc( 50% - 2px );
+    opacity:1;
+    animation: mouse 2s infinite;
+}
+
+@keyframes mouse{
+    from{
+        top:8px;
+        opacity:1;
+    }to{
+        top:60px;
+        opacity:0;
+    }
+}
+.landscape{
+    display:none;
+}
 
 @media (max-width: 700px){
    .name-img{
        display: block;
     top:150px;
     left: calc( 50% - 30vw );
+    position: absolute;
+    height:250px;
+    width: 300px;
+   }
+   .middle{
+       display: none;
    }
 
     .logo{
@@ -160,7 +212,21 @@ header>div>ul>li>a{
 }
 
 @media (max-width:800px) and (orientation:landscape){
-    body{
-        display: none;
+    section{
+        display:none;
+    }
+    .landscape{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        justify-content: space-around;
+        align-items: center;
+        background:#4e4ea1;
+        
+    }
+    .landscape>img{
+        width:200px;
+        height:200px;
     }
 }
