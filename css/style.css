@@ -4,15 +4,24 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
+html{
+    min-height: 100%;
+     background-color: #e1f6ff; 
+}
 body{
-    background: #e1f6ff;    
+     
+        display: flex;
+        flex-direction: column;
+        min-height:100% ;
+        background: url("../assets/bg2_2.svg") no-repeat 0 0;
+        background-size: 75vw;
 }
 body::-webkit-scrollbar {
     width: 6px;
 }
  
 body::-webkit-scrollbar-track {
-    background-color:#e1f6ff ;
+    background: transparent;
 }
  
 body::-webkit-scrollbar-thumb {
@@ -24,13 +33,13 @@ body::-webkit-scrollbar-thumb {
 
 
 #bg1{
-    background: url("../assets/bg2_2.svg") no-repeat 0 0;
+   
     position: absolute;
-    background-size: 75vw;
+    
     top:0;
     left:0;
-    height: 140vh;
-    width: 100vw;
+    height: 100vh;
+    width: 140vw;
 }
 #nav{
     position: absolute;
@@ -167,8 +176,44 @@ header>div>ul>li>a{
     display:none;
 }
 
+footer{
+        background: url("../assets/footer_2.svg") no-repeat;
+        background-size:cover;
+        background-position:left bottom;
+        height: 200px;
+        width: 100%;
+        margin-top:auto;
+        overflow: hidden;
+}
+.copy>p{
+    color:black;
+    margin-top:150px;
+    margin-left: 100px;
+}
+.address{
+   float: right;
+   position: relative;
+   bottom:50px;
+   color:black;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-right :160px;
+}
+.address>center>img{
+    height:30px;
+    width: 30px;
+}
+
 @media (max-width: 700px){
-   .name-img{
+   #bg1{
+        background: url("../assets/bg2_2.svg") no-repeat 0 0;
+     background-size: 75vw;
+   }
+   body{
+    background-color: #e1f6ff;   
+   }
+   
+    .name-img{
        display: block;
     top:150px;
     left: calc( 50% - 30vw );
@@ -223,6 +268,29 @@ header>div>ul>li>a{
    
 }
 
+footer{
+    background-size:100%;
+}
+
+.copy>p{
+    font-size: 2vw;
+        margin-top:180px;
+    margin-left: 10px;
+}
+.address{
+   float: right;
+   position: relative;
+   bottom:30px;
+   color:black;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-right :70px;
+}
+.address>center>img{
+    height:22px;
+    width: 22px;
+}
+
 }
 
 @media (max-width:800px) and (orientation:landscape){
@@ -240,7 +308,7 @@ header>div>ul>li>a{
         
     }
     .landscape>img{
-        width:200px;
-        height:200px;
+        width:25vh;
+        height:25vh;
     }
 }
