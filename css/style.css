@@ -39,7 +39,7 @@ body::-webkit-scrollbar-thumb {
     top:0;
     left:0;
     height: 100vh;
-    width: 140vw;
+    width: 100vw;
 }
 #nav{
     position: absolute;
@@ -207,7 +207,7 @@ footer{
 @media (max-width: 700px){
    #bg1{
         background: url("../assets/bg2_2.svg") no-repeat 0 0;
-     background-size: 75vw;
+     background-size: 77vh;
    }
    body{
     background-color: #e1f6ff;   
@@ -237,9 +237,7 @@ footer{
 header>div>ul>li>a{
     color:white;
 }
-    #bg1{
-        background-size: 77vh;
-    }
+   
      .name-img{
        display: block;
     top:150px;
