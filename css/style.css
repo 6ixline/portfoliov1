@@ -32,15 +32,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-#bg1{
-   
-    position: absolute;
-    
-    top:0;
-    left:0;
-    height: 100vh;
-    width: 100vw;
-}
 #nav{
     position: absolute;
     z-index: 10;
@@ -49,6 +40,11 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     top:0;
     right: 0;
+}
+
+.header-section{
+    width:100%;
+    height:600px;
 }
 
 header{
@@ -106,12 +102,11 @@ header>div>ul>li>a{
 }
 
 .name-img{
-    position: relative;
+    position: absolute;
     width: auto;
-    height: 100vh;
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
+    height:auto;
+    top:240px;
+    left:calc( 50% - 260px);
     background: transparent;
 }
 
@@ -151,8 +146,8 @@ header>div>ul>li>a{
 }
 
 .container{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 800px;
   
 }
 
@@ -200,7 +195,6 @@ footer{
         background-position:left bottom;
         height: 200px;
         width: 100%;
-        margin-top:auto;
         overflow: hidden;
 }
 .copy>p{
@@ -226,6 +220,12 @@ footer{
    #bg1{
         background: url("../assets/bg2_2.svg") no-repeat 0 0;
      background-size: 77vh;
+     position: absolute;
+    
+    top:0;
+    left:0;
+    height: 100vh;
+    width: 100vw;
    }
    body{
     background-color: #e1f6ff;   
