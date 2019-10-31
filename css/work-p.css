@@ -105,9 +105,12 @@ section{
     background-size: cover;
     background-position:center;
 }
+.fixed-header{
+    height: 16vh;
+}
 header>div>ul{
     
-    margin:5vh 8vw 0 0 ;
+    margin:6vh 8vw 0 0 ;
 
 }
 .logo{
