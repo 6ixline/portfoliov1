@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+     
+       background-color: #e1f6ff; 
+}
+body::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #6e74c8;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    height:15vh;
+    background:transparent;
+    position: fixed;
+    top: 0;
+    overflow:hidden;
+    transition: top 0.2s ease-out;
+}
+
+.fixed-header{
+    background-color:rgba(110,116,200,0.8);
+    height:20vh;
+    z-index:999;
+}
+.nav-up {
+    top: -30vh;
+}
+
+
+.logo{
+    margin:8vh 0 0 6vw;
+    position:absolute;
+}
+.mg{
+    margin-top: 7vh;
+}
+
+
+header>div>ul{
+    display: flex;
+    flex-direction: row;
+    float: right !important;
+    list-style: none;
+    margin:8vh 8vw 0 0 ;
+
+}
+header>div>ul>li{
+    text-decoration: none;
+}
+header>div>ul>li>a{
+    color:white;
+     text-decoration: none;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;;
+     padding-left:6vw;
+     font-size: 15px;
+    transition: color 0.5s;
+}
+.link:hover{
+    color:#22226a;
+}
+.fcolor{
+    color:white;
+}
+
+section{
+    height:1800px;
+    width: 100%;
+}
+.header-section{
+    width: 100%;
+    height: 400px;
+    background: url("../assets/work-bg_3.svg") no-repeat;
+    background-size: cover;
+    background-position: 0  -20px;
+}
+.landscape{
+    display:none;
+}
+
+
+@media (max-width: 700px){
+    .header-section{
+    
+    height: 400px;
+    background: url("../assets/mh-bg.svg") no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+header>div>ul{
+    
+    margin:5vh 8vw 0 0 ;
+
+}
+.logo{
+    margin:5vh 0 0 6vw;
+    position:absolute;
+}
+}
+
+@media (max-width:800px) and (orientation:landscape){
+    section{
+        display:none;
+    }
+    footer{
+        display:none;
+    }
+    .landscape{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        justify-content: space-around;
+        align-items: center;
+        background:#6e74c8;
+        
+    }
+    .landscape>img{
+        width:25vh;
+        height:25vh;
+    }
+}
