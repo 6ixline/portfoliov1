@@ -56,11 +56,11 @@ header{
     position: fixed;
     top: 0;
     overflow:hidden;
-    transition: top 0.2s ease-out;
+    transition: top 1s ease-in-out;
 }
 
 .fixed-header{
-    background-color:rgba(110,116,200,0.8);
+    background-color:rgba(110,116,200,0.8)!important;
     height:20vh;
     z-index:999;
 }

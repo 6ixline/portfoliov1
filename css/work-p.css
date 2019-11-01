@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans:400,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -33,7 +35,7 @@ header{
     position: fixed;
     top: 0;
     overflow:hidden;
-    transition: top 0.2s ease-out;
+    transition: top 1s ease-in-out;
 }
 
 .fixed-header{
@@ -92,6 +94,53 @@ section{
     background-size: cover;
     background-position: 0  -20px;
 }
+.svg-section{
+    width: 100%;
+    height: 475px;
+    align-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+.svg-div{
+    display: inline-block;
+    background:#6e74c8;
+    border-radius:50% ;
+    height:175px;
+    width: 175px;
+    margin-top: 80px;
+
+}
+.svg-text{
+    width: 100%;
+    height:200px;
+    font-family: serif;
+    margin: 30px 0px 0px 0px;
+}
+.svg-text>h3{
+    font-family: 'Julius Sans One', sans-serif;
+    color:#22226a;
+    font-size: 24px;
+}
+.svg-text>p{
+    display: inline-block;
+    font-size: 21px;
+    margin-top:30px;
+    width: 480px;
+    color:rgb(92, 92, 92);
+}
+
+
+.project-section{
+    width: 100%;
+    height: auto;
+}
+.project-div{
+    width: 100%;
+    height: 600px;
+    background: lightsalmon;
+}
+
+
 .landscape{
     display:none;
 }
@@ -116,6 +165,16 @@ header>div>ul{
 .logo{
     margin:5vh 0 0 6vw;
     position:absolute;
+}
+.svg-text>p{
+    font-size: 21px;
+    margin-top:30px;
+    color:rgb(92, 92, 92);
+}
+.svg-text>p{
+    font-size: 21px;
+    width:100%;
+    
 }
 }
 
