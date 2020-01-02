@@ -216,6 +216,48 @@ footer{
     width: 30px;
 }
 
+.msg-sec{
+    height:400px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-h{
+    color:#6e74c8;
+    font-family: "Open Sans";
+    font-weight: lighter;
+}
+.msg-h1{
+    font-size:40px;
+}
+.msg-p{
+    color:#374760;
+    font-size: 20px;
+    width:55%;
+    text-align: center;
+}
+.pro-btn{
+    width:220px;
+    height: 55px;
+    background-color: #374760;
+    border:none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Julius Sans one';
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+}
+
+.pro-btn:hover{
+    background-color: #2c384b;
+}
+
+
 @media (max-width: 700px){
    #bg1{
         background: url("../assets/bg2_2.svg") no-repeat 0 0;
@@ -309,7 +351,25 @@ footer{
     height:22px;
     width: 22px;
 }
+.msg-sec{
+    height:500px;
+     
+}
 
+.msg-h{
+    font-size: 20px;
+    text-align: center;
+    width:95%;
+}
+.msg-h1{
+    font-size:35px;
+}
+.msg-p{
+    color:#374760;
+    font-size: 20px;
+    width:95%;
+    text-align: center;
+}
 }
 
 @media (max-width:800px) and (orientation:landscape){
