@@ -367,12 +367,13 @@ header>div>ul>li>a{
 }
 
 footer{
+    height:100px;
     background-size:100%;
 }
 
 .copy>p{
     font-size: 2vw;
-        margin-top:180px;
+        margin-top:80px;
     margin-left: 10px;
 }
 .address{
@@ -407,6 +408,9 @@ footer{
     width:95%;
     text-align: center;
 }
+
+
+
 }
 
 @media (max-width:800px) and (orientation:landscape){
