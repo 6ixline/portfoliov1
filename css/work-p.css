@@ -356,6 +356,9 @@ footer{
     footer{
         display:none;
     }
+    .msg-sec{
+        display:none;
+    }
     .landscape{
         display: flex;
         width: 100vw;

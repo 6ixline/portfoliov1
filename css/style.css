@@ -418,10 +418,16 @@ footer{
 
 @media (max-width:800px) and (orientation:landscape){
     section{
-        display:none!important;
+        display:none;
     }
     footer{
-        display:none!important;
+        display:none;
+    }
+    .msg-sec{
+        display:none;
+    }
+    .container{
+        display: none;
     }
     .landscape{
         display: flex;
