@@ -4,15 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="language" content="English">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155177859-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-155177859-1');
-</script>
+   
 
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -126,9 +118,9 @@ box-shadow: 2px 4px 11px -6px rgba(0,0,0,0.75);;"><br><br>
     </section>
     <footer>
         <div class="copy">
-            <p>© <script type="text/javascript">
+            <p id="yearDisplay"><script type="text/javascript">
                 var dt = new Date();
-                document.write(dt.getFullYear()); 
+                document.getElementById('yearDisplay').innerText = "© "+dt.getFullYear(); 
             </script> Sourabh Singh. All rights reserved.</p>
         </div>
         <div class="address">

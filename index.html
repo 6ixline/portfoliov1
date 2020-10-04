@@ -73,9 +73,9 @@
     
     <footer>
        <div class="copy">
-           <p>© <script type="text/javascript">
+           <p id='yearDisplay'>© <script type="text/javascript">
             var dt = new Date();
-            document.write(dt.getFullYear()); 
+            document.getElementById('yearDisplay').innerText = "© " + dt.getFullYear();  
         </script> Sourabh Singh. All rights reserved.</p>
        </div>
        <div class="address">
