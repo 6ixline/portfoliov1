@@ -253,15 +253,19 @@ footer{
     color:#6e74c8;
     font-family: "Open Sans";
     font-weight: lighter;
+    margin-bottom:30px;
 }
 .msg-h1{
     font-size:40px;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 .msg-p{
     color:#374760;
     font-size: 20px;
     width:55%;
     text-align: center;
+    margin-bottom:30px;
 }
 .pro-btn{
     width:220px;

@@ -142,18 +142,21 @@ section{
 .project-img{
     width: 775px;
     height: 550px;
+    margin-bottom:40px;
 }
 
 .ph{
      font-family: 'Open Sans';
     color:#2c384b;
     font-size: 30px;
+    
 }
 
 .sph{
     font-family: 'Julius Sans one';
     color: white;
     font-size: 14px;
+    margin-bottom:30px;
 }
 .dis{
     width: 52%;
@@ -162,6 +165,7 @@ section{
     font-size: 18px;
     text-align: center;
     font-weight: lighter;
+    margin-bottom:30px;
 }
 
 .pro-btn{
@@ -227,15 +231,19 @@ footer{
     color:#6e74c8;
     font-family: "Open Sans";
     font-weight: lighter;
+    margin-bottom:30px;
 }
 .msg-h1{
     font-size:40px;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 .msg-p{
     color:#374760;
     font-size: 20px;
     width:55%;
     text-align: center;
+    margin-bottom:30px;
 }
 
 
@@ -283,18 +291,22 @@ header>div>ul{
 .project-img{
     width: 350px;
     height: 250px;
+    margin-bottom:30px;
 }
 .ph{
     font-size: 25px;
+
 }
 
 .sph{
    
     font-size: 18px;
+     margin-bottom:30px;
 }
 .dis{
     width:95%;
     font-size: 18px;
+     margin-bottom:30px;
     
 }
 
